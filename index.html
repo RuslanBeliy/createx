@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#111111">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <script defer src="js/main.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <a href="#" class="header__logo logo">
+                        <img loading="lazy" src="img/logo.svg" alt="Логотип">
+                    </a>
+                    <nav class="header__menu menu" data-menu>
+                        <ul class="menu__list">
+                            <li class="menu__item" data-menu-item>
+                                <a href="#about" class="menu__link" data-scroll>About Us</a>
+                            </li>
+                            <li class="menu__item" data-menu-item>
+                                <a href="#courses" class="menu__link" data-scroll>Courses</a>
+                            </li>
+                            <li class="menu__item" data-menu-item>
+                                <a href="#events" class="menu__link" data-scroll>Events</a>
+                            </li>
+                            <li class="menu__item" data-menu-item>
+                                <a href="#blog" class="menu__link" data-scroll>Blog</a>
+                            </li>
+                            <li class="menu__item" data-menu-item>
+                                <a href="#contacts" class="menu__link" data-scroll>Contacts</a>
+                            </li>
+                        </ul>
+                        <div class="header__right">
+                            <a href="#" class="header__btn btn">Get consultation</a>
+                            <div class="user-links">
+                                <a href="#" class="user-links__link">Log in</a>
+                                <a href="#" class="user-links__link">Register</a>
+                            </div>
+                        </div>
+                    </nav>
+                    <button class="burger" data-burger>
+                        <span class="burger__line"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="hero" id="hero">
+                <div class="container">
+                    <div class="hero__wrapper">
+                        <div class="hero__content">
+                            <div class="hero__play">
+                                <button class="hero__play-btn">
+                                    <svg>
+                                        <use xlink:href="img/sprite.svg#play"></use>
+                                    </svg>
+                                </button>
+                                <div class="hero__play-descr">Play showreel</div>
+                            </div>
+                            <h1 class="hero__title">
+                                Enjoy studying
+                                with Createx Online Courses
+                            </h1>
+                            <div class="hero__btns">
+                                <a href="#" class="btn btn--empty">About us</a>
+                                <a href="#" class="btn">Explore courses</a>
+                            </div>
+                        </div>
+                        <div class="hero__img">
+                            <img loading="lazy" src="img/hero-bg.svg" alt="">
+                        </div>
+                    </div>
+
+                    <ul class="hero__list">
+                        <li class="hero__item">
+                            <span>1200</span>
+                            Students graduated
+                        </li>
+                        <li class="hero__item">
+                            <span>84</span>
+                            Completed courses
+                        </li>
+                        <li class="hero__item">
+                            <span>16</span>
+                            Qualified tutors
+                        </li>
+                        <li class="hero__item">
+                            <span>5</span>
+                            Years of experience
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="about" id="about">
+                <div class="container">
+                    <div class="about__wrapper">
+                        <div class="about__content">
+                            <div class="about__heading heading">
+                                <h3 class="heading__subtitle">About us</h3>
+                                <h2 class="heading__title">Createx Online School</h2>
+                            </div>
+                            <div class="about__text">
+                                <p class="about__text--bold">Createx Online School is a leader in online studying. We have lots of courses and programs from the main market experts.</p>
+                                <p>We provide relevant approaches to online learning, internships and employment in the largest companies in the country. Our educational programs help you get a new specialty from scratch. During your studies, we will help you find a job. Check the courses and online events that we organise.</p>
+                            </div>
+                            <div class="about__btns">
+                                <a href="#" class="btn btn--empty">Explore events</a>
+                                <a href="#" class="btn">Browse courses</a>
+                            </div>
+                        </div>
+                        <div class="about__decor">
+                            <img loading="lazy" src="img/about/1.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="about__inner">
+                        <div class="about__img">
+                            <picture>
+                                <source srcset="img/about/2.webp" type="image/webp">
+                                <img loading="lazy" src="img/about/2.jpg" alt="">
+                            </picture>
+                        </div>
+                        <ul class="about__list">
+                            <li class="about__item">
+                                <div class="about__item-number">1200</div>
+                                <div class="about__item-descr">students graduated</div>
+                            </li>
+                            <li class="about__item">
+                                <div class="about__item-number">84</div>
+                                <div class="about__item-descr">completed courses</div>
+                            </li>
+                            <li class="about__item">
+                                <div class="about__item-number">16</div>
+                                <div class="about__item-descr">qualified tutors</div>
+                            </li>
+                            <li class="about__item">
+                                <div class="about__item-number">5</div>
+                                <div class="about__item-descr">years of experience</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="direcrions" id="courses">
+                <div class="container">
+                    <div class="direcrions__heading heading heading--center">
+                        <h3 class="heading__subtitle">our main directions</h3>
+                        <h2 class="heading__title">What do we teach</h2>
+                    </div>
+                    <div class="tabs" data-tabs="tab">
+                        <ul class="tabs__nav">
+                            <li class="tabs__nav-item"><button class="tabs__nav-btn" type="button">All</button></li>
+                            <li class="tabs__nav-item"><button class="tabs__nav-btn" type="button">Marketing</button></li>
+                            <li class="tabs__nav-item"><button class="tabs__nav-btn" type="button">Management</button></li>
+                            <li class="tabs__nav-item"><button class="tabs__nav-btn" type="button">HR & Recruting</button></li>
+                            <li class="tabs__nav-item"><button class="tabs__nav-btn" type="button">Design</button></li>
+                            <li class="tabs__nav-item"><button class="tabs__nav-btn" type="button">Development</button></li>
+                        </ul>
+                        <div class="tabs__content">
+                            <div class="tabs__panel">
+                                <ul class="direcrions__list">
+                                    <li class="direcrions__item">
+                                        <div class="direcrions-card">
+                                            <div class="direcrions-card__img">
+                                                <picture>
+                                                    <source srcset="img/direcrions/1.webp" type="image/webp">
+                                                    <img loading="lazy" src="img/direcrions/1.jpg" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="direcrions-card__content">
+                                                <span class="direcrions-card__label direcrions-card__label--marketing">Marketing</span>
+                                                <div class="direcrions-card__descr">
+                                                    Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra
+                                                    faucibus. Viverra scelerisque consequat.
+                                                </div>
+                                                <a href="#" class="direcrions-card__link">Check courses</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="direcrions__item">
+                                        <div class="direcrions-card">
+                                            <div class="direcrions-card__img">
+                                                <picture>
+                                                    <source srcset="img/direcrions/2.webp" type="image/webp">
+                                                    <img loading="lazy" src="img/direcrions/2.jpg" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="direcrions-card__content">
+                                                <span class="direcrions-card__label direcrions-card__label--management">Management</span>
+                                                <div class="direcrions-card__descr">
+                                                    Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra
+                                                    faucibus. Viverra scelerisque consequat.
+                                                </div>
+                                                <a href="#" class="direcrions-card__link">Check courses</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="direcrions__item">
+                                        <div class="direcrions-card">
+                                            <div class="direcrions-card__img">
+                                                <picture>
+                                                    <source srcset="img/direcrions/3.webp" type="image/webp">
+                                                    <img loading="lazy" src="img/direcrions/3.jpg" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="direcrions-card__content">
+                                                <span class="direcrions-card__label direcrions-card__label--recruting">HR &
+                                                    Recruting</span>
+                                                <div class="direcrions-card__descr">
+                                                    Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra
+                                                    faucibus. Viverra scelerisque consequat.
+                                                </div>
+                                                <a href="#" class="direcrions-card__link">Check courses</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="direcrions__item">
+                                        <div class="direcrions-card">
+                                            <div class="direcrions-card__img">
+                                                <picture>
+                                                    <source srcset="img/direcrions/4.webp" type="image/webp">
+                                                    <img loading="lazy" src="img/direcrions/4.jpg" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="direcrions-card__content">
+                                                <span class="direcrions-card__label direcrions-card__label--design">Design</span>
+                                                <div class="direcrions-card__descr">
+                                                    Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra
+                                                    faucibus. Viverra scelerisque consequat.
+                                                </div>
+                                                <a href="#" class="direcrions-card__link">Check courses</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="direcrions__item">
+                                        <div class="direcrions-card">
+                                            <div class="direcrions-card__img">
+                                                <picture>
+                                                    <source srcset="img/direcrions/5.webp" type="image/webp">
+                                                    <img loading="lazy" src="img/direcrions/5.jpg" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="direcrions-card__content">
+                                                <span class="direcrions-card__label direcrions-card__label--development">Development</span>
+                                                <div class="direcrions-card__descr">
+                                                    Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra
+                                                    faucibus. Viverra scelerisque consequat.
+                                                </div>
+                                                <a href="#" class="direcrions-card__link">Check courses</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="direcrions__item">
+                                        <div class="direcrions-card direcrions-card--comming">
+                                            <span>New studying program coming soon…</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tabs__panel">
+                                <ul class="direcrions__list">
+                                    <li class="direcrions__item">
+                                        <div class="direcrions-card">
+                                            <div class="direcrions-card__img">
+                                                <picture>
+                                                    <source srcset="img/direcrions/1.webp" type="image/webp">
+                                                    <img loading="lazy" src="img/direcrions/1.jpg" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="direcrions-card__content">
+                                                <span class="direcrions-card__label direcrions-card__label--marketing">Marketing</span>
+                                                <div class="direcrions-card__descr">
+                                                    Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra
+                                                    faucibus. Viverra scelerisque consequat.
+                                                </div>
+                                                <a href="#" class="direcrions-card__link">Check courses</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tabs__panel">
+                                <ul class="direcrions__list">
+                                    <li class="direcrions__item">
+                                        <div class="direcrions-card">
+                                            <div class="direcrions-card__img">
+                                                <picture>
+                                                    <source srcset="img/direcrions/2.webp" type="image/webp">
+                                                    <img loading="lazy" src="img/direcrions/2.jpg" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="direcrions-card__content">
+                                                <span class="direcrions-card__label direcrions-card__label--management">Management</span>
+                                                <div class="direcrions-card__descr">
+                                                    Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra
+                                                    faucibus. Viverra scelerisque consequat.
+                                                </div>
+                                                <a href="#" class="direcrions-card__link">Check courses</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tabs__panel">
+                                <ul class="direcrions__list">
+                                    <li class="direcrions__item">
+                                        <div class="direcrions-card">
+                                            <div class="direcrions-card__img">
+                                                <picture>
+                                                    <source srcset="img/direcrions/3.webp" type="image/webp">
+                                                    <img loading="lazy" src="img/direcrions/3.jpg" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="direcrions-card__content">
+                                                <span class="direcrions-card__label direcrions-card__label--recruting">HR &
+                                                    Recruting</span>
+                                                <div class="direcrions-card__descr">
+                                                    Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra
+                                                    faucibus. Viverra scelerisque consequat.
+                                                </div>
+                                                <a href="#" class="direcrions-card__link">Check courses</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tabs__panel">
+                                <ul class="direcrions__list">
+                                    <li class="direcrions__item">
+                                        <div class="direcrions-card">
+                                            <div class="direcrions-card__img">
+                                                <picture>
+                                                    <source srcset="img/direcrions/4.webp" type="image/webp">
+                                                    <img loading="lazy" src="img/direcrions/4.jpg" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="direcrions-card__content">
+                                                <span class="direcrions-card__label direcrions-card__label--design">Design</span>
+                                                <div class="direcrions-card__descr">
+                                                    Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra
+                                                    faucibus. Viverra scelerisque consequat.
+                                                </div>
+                                                <a href="#" class="direcrions-card__link">Check courses</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tabs__panel">
+                                <ul class="direcrions__list">
+                                    <li class="direcrions__item">
+                                        <div class="direcrions-card">
+                                            <div class="direcrions-card__img">
+                                                <picture>
+                                                    <source srcset="img/direcrions/5.webp" type="image/webp">
+                                                    <img loading="lazy" src="img/direcrions/5.jpg" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="direcrions-card__content">
+                                                <span class="direcrions-card__label direcrions-card__label--development">Development</span>
+                                                <div class="direcrions-card__descr">
+                                                    Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra
+                                                    faucibus. Viverra scelerisque consequat.
+                                                </div>
+                                                <a href="#" class="direcrions-card__link">Check courses</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="certificate">
+                <div class="container">
+                    <div class="certificate__wrapper">
+                        <div class="certificate__content">
+                            <div class="certificate__heading heading">
+                                <h3 class="heading__subtitle">Createx Certificate</h3>
+                                <h2 class="heading__title">Your expertise will be confirmed</h2>
+                            </div>
+                            <div class="certificate__descr">
+                                We are accredited by international professional organizations and institutes:
+                            </div>
+                            <ul class="certificate__list">
+                                <li class="certificate__item">
+                                    <img loading="lazy" src="img/certificate/1.svg" alt="">
+                                </li>
+                                <li class="certificate__item">
+                                    <img loading="lazy" src="img/certificate/2.svg" alt="">
+                                </li>
+                                <li class="certificate__item">
+                                    <img loading="lazy" src="img/certificate/3.svg" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="certificate__img">
+                            <picture>
+                                <source srcset="img/certificate/certificate.webp" type="image/webp">
+                                <img loading="lazy" src="img/certificate/certificate.jpg" alt="">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="team">
+                <div class="container">
+                    <div class="team__heading heading">
+                        <h3 class="heading__subtitle">Best tutors are all here</h3>
+                        <h2 class="heading__title">Meet our team</h2>
+                    </div>
+                    <div class="team__wrapper">
+                        <div class="team__slide-btns slide-btns">
+                            <button class="slide-btns__btn team__btn--next">
+                                <svg>
+                                    <use xlink:href="img/sprite.svg#arr-left"></use>
+                                </svg>
+                            </button>
+                            <button class="slide-btns__btn team__btn--prev">
+                                <svg>
+                                    <use xlink:href="img/sprite.svg#arr-right"></use>
+                                </svg>
+                            </button>
+                        </div>
+
+                        <div class="team__slider swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="team-card">
+                                        <div class="team-card__img">
+                                            <picture>
+                                                <source srcset="img/team/1.webp" type="image/webp">
+                                                <img loading="lazy" src="img/team/1.png" alt="">
+                                            </picture>
+                                            <ul class="team-card__social">
+                                                <li class="team-card__item">
+                                                    <a href="#" class="team-card__link" target="_blank">
+                                                        <svg>
+                                                            <use xlink:href="img/sprite.svg#fb"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li class="team-card__item">
+                                                    <a href="#" class="team-card__link" target="_blank">
+                                                        <svg>
+                                                            <use xlink:href="img/sprite.svg#inst"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li class="team-card__item">
+                                                    <a href="#" class="team-card__link" target="_blank">
+                                                        <svg>
+                                                            <use xlink:href="img/sprite.svg#in"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="team-card__name">Dianne Russell</h4>
+                                        <div class="team-card__descr">
+                                            Founder and CEO
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="team-card">
+                                        <div class="team-card__img">
+                                            <picture>
+                                                <source srcset="img/team/2.webp" type="image/webp">
+                                                <img loading="lazy" src="img/team/2.png" alt="">
+                                            </picture>
+                                            <ul class="team-card__social">
+                                                <li class="team-card__item">
+                                                    <a href="#" class="team-card__link" target="_blank">
+                                                        <svg>
+                                                            <use xlink:href="img/sprite.svg#fb"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li class="team-card__item">
+                                                    <a href="#" class="team-card__link" target="_blank">
+                                                        <svg>
+                                                            <use xlink:href="img/sprite.svg#inst"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li class="team-card__item">
+                                                    <a href="#" class="team-card__link" target="_blank">
+                                                        <svg>
+                                                            <use xlink:href="img/sprite.svg#in"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="team-card__name">Jerome Bell</h4>
+                                        <div class="team-card__descr">
+                                            Founder and Program Director
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="team-card">
+                                        <div class="team-card__img">
+                                            <picture>
+                                                <source srcset="img/team/3.webp" type="image/webp">
+                                                <img loading="lazy" src="img/team/3.png" alt="">
+                                            </picture>
+                                            <ul class="team-card__social">
+                                                <li class="team-card__item">
+                                                    <a href="#" class="team-card__link" target="_blank">
+                                                        <svg>
+                                                            <use xlink:href="img/sprite.svg#fb"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li class="team-card__item">
+                                                    <a href="#" class="team-card__link" target="_blank">
+                                                        <svg>
+                                                            <use xlink:href="img/sprite.svg#inst"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li class="team-card__item">
+                                                    <a href="#" class="team-card__link" target="_blank">
+                                                        <svg>
+                                                            <use xlink:href="img/sprite.svg#in"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="team-card__name">Kristin Watson</h4>
+                                        <div class="team-card__descr">
+                                            Marketer, Curator of Marketing Course
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="team-card">
+                                        <div class="team-card__img">
+                                            <picture>
+                                                <source srcset="img/team/4.webp" type="image/webp">
+                                                <img loading="lazy" src="img/team/4.png" alt="">
+                                            </picture>
+                                            <ul class="team-card__social">
+                                                <li class="team-card__item">
+                                                    <a href="#" class="team-card__link" target="_blank">
+                                                        <svg>
+                                                            <use xlink:href="img/sprite.svg#fb"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li class="team-card__item">
+                                                    <a href="#" class="team-card__link" target="_blank">
+                                                        <svg>
+                                                            <use xlink:href="img/sprite.svg#inst"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li class="team-card__item">
+                                                    <a href="#" class="team-card__link" target="_blank">
+                                                        <svg>
+                                                            <use xlink:href="img/sprite.svg#in"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h4 class="team-card__name">Marvin McKinney</h4>
+                                        <div class="team-card__descr">
+                                            PM, Curator of Management Course
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="feedback">
+                <div class="container">
+                    <div class="feedback__heading heading heading--center">
+                        <h3 class="heading__subtitle">TESTIMONIALS</h3>
+                        <h2 class="heading__title">What our students say</h2>
+                    </div>
+
+                    <div class="feedback__wrapper">
+                        <div class="feedback__btns slide-btns">
+                            <button class="slide-btns__btn feedback__btn--next">
+                                <svg>
+                                    <use xlink:href="img/sprite.svg#arr-left"></use>
+                                </svg>
+                            </button>
+                            <button class="slide-btns__btn feedback__btn--prev">
+                                <svg>
+                                    <use xlink:href="img/sprite.svg#arr-right"></use>
+                                </svg>
+                            </button>
+                        </div>
+
+                        <div class="feedback__slider swiper">
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="feedback-item">
+                                        <p class="feedback-item__text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra
+                                            mus
+                                            lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus
+                                            ornare
+                                            turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra
+                                            arcu
+                                            diam maecenas diam integer in.
+                                        </p>
+                                        <div class="feedback-item__user">
+                                            <div class="feedback-item__avatar">
+                                                <picture>
+                                                    <source srcset="img/feedback/avatar.webp" type="image/webp">
+                                                    <img loading="lazy" src="img/feedback/avatar.jpg" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="feedback-item__about">
+                                                <h4 class="feedback-item__name">Eleanor Pena</h4>
+                                                <div class="feedback-item__descr">Position, Course</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="feedback-item">
+                                        <p class="feedback-item__text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra
+                                            mus
+                                            lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus
+                                            ornare
+                                            turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra
+                                            arcu
+                                            diam maecenas diam integer in.
+                                        </p>
+                                        <div class="feedback-item__user">
+                                            <div class="feedback-item__avatar">
+                                                <picture>
+                                                    <source srcset="img/feedback/avatar.webp" type="image/webp">
+                                                    <img loading="lazy" src="img/feedback/avatar.jpg" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="feedback-item__about">
+                                                <h4 class="feedback-item__name">Eleanor Pena</h4>
+                                                <div class="feedback-item__descr">Position, Course</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="feedback-item">
+                                        <p class="feedback-item__text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra
+                                            mus
+                                            lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus
+                                            ornare
+                                            turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra
+                                            arcu
+                                            diam maecenas diam integer in.
+                                        </p>
+                                        <div class="feedback-item__user">
+                                            <div class="feedback-item__avatar">
+                                                <picture>
+                                                    <source srcset="img/feedback/avatar.webp" type="image/webp">
+                                                    <img loading="lazy" src="img/feedback/avatar.jpg" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="feedback-item__about">
+                                                <h4 class="feedback-item__name">Eleanor Pena</h4>
+                                                <div class="feedback-item__descr">Position, Course</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="feedback-item">
+                                        <p class="feedback-item__text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra
+                                            mus
+                                            lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus
+                                            ornare
+                                            turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra
+                                            arcu
+                                            diam maecenas diam integer in.
+                                        </p>
+                                        <div class="feedback-item__user">
+                                            <div class="feedback-item__avatar">
+                                                <picture>
+                                                    <source srcset="img/feedback/avatar.webp" type="image/webp">
+                                                    <img loading="lazy" src="img/feedback/avatar.jpg" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="feedback-item__about">
+                                                <h4 class="feedback-item__name">Eleanor Pena</h4>
+                                                <div class="feedback-item__descr">Position, Course</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="feedback-item">
+                                        <p class="feedback-item__text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra
+                                            mus
+                                            lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus
+                                            ornare
+                                            turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra
+                                            arcu
+                                            diam maecenas diam integer in.
+                                        </p>
+                                        <div class="feedback-item__user">
+                                            <div class="feedback-item__avatar">
+                                                <picture>
+                                                    <source srcset="img/feedback/avatar.webp" type="image/webp">
+                                                    <img loading="lazy" src="img/feedback/avatar.jpg" alt="">
+                                                </picture>
+                                            </div>
+                                            <div class="feedback-item__about">
+                                                <h4 class="feedback-item__name">Eleanor Pena</h4>
+                                                <div class="feedback-item__descr">Position, Course</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="jobs">
+                <div class="container">
+                    <div class="jobs__heading heading heading--center">
+                        <h3 class="heading__subtitle">best jobs for you</h3>
+                        <h2 class="heading__title">Our students work here</h2>
+                    </div>
+                    <div class="jobs__wrapper">
+                        <div class="jobs__img">
+                            <img loading="lazy" src="img/jobs/1.svg" alt="">
+                        </div>
+                        <div class="jobs__img">
+                            <img loading="lazy" src="img/jobs/2.svg" alt="">
+                        </div>
+                        <div class="jobs__img">
+                            <img loading="lazy" src="img/jobs/3.svg" alt="">
+                        </div>
+                        <div class="jobs__img">
+                            <img loading="lazy" src="img/jobs/4.svg" alt="">
+                        </div>
+                        <div class="jobs__img">
+                            <img loading="lazy" src="img/jobs/5.svg" alt="">
+                        </div>
+                        <div class="jobs__img">
+                            <img loading="lazy" src="img/jobs/6.svg" alt="">
+                        </div>
+                        <div class="jobs__img">
+                            <img loading="lazy" src="img/jobs/7.svg" alt="">
+                        </div>
+                        <div class="jobs__img">
+                            <img loading="lazy" src="img/jobs/8.svg" alt="">
+                        </div>
+                        <div class="jobs__img">
+                            <img loading="lazy" src="img/jobs/9.svg" alt="">
+                        </div>
+                        <div class="jobs__img">
+                            <img loading="lazy" src="img/jobs/10.svg" alt="">
+                        </div>
+                        <div class="jobs__img">
+                            <img loading="lazy" src="img/jobs/11.svg" alt="">
+                        </div>
+                        <div class="jobs__img">
+                            <img loading="lazy" src="img/jobs/12.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="program" id="events">
+                <div class="container">
+                    <div class="program__wrapper">
+                        <div class="program__left">
+                            <div class="program__heading heading">
+                                <h3 class="heading__subtitle">Course program</h3>
+                                <h2 class="heading__title">What will you learn</h2>
+                            </div>
+
+                            <ul class="accordion__list">
+                                <li class="accordion">
+                                    <button class="accordion__control">
+                                        <h3 class="accordion__title"><span>Lesson 1.</span> Aliquet lectus urna viverra in odio.</h3>
+                                    </button>
+                                    <div class="accordion__content">
+                                        <p>Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo nunc orci vitae accumsan id.</p>
+                                    </div>
+                                </li>
+                                <li class="accordion">
+                                    <button class="accordion__control">
+                                        <h3 class="accordion__title"><span>Lesson 2.</span> Orci commodo, viverra orci mollis ut euismod.</h3>
+                                    </button>
+                                    <div class="accordion__content">
+                                        <p>Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo nunc orci vitae accumsan id.</p>
+                                    </div>
+                                </li>
+                                <li class="accordion">
+                                    <button class="accordion__control">
+                                        <h3 class="accordion__title"><span>Lesson 3.</span> Sagittis vitae facilisi rutrum amet mauris quisque vel.</h3>
+                                    </button>
+                                    <div class="accordion__content">
+                                        <p>Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo nunc orci vitae accumsan id.</p>
+                                    </div>
+                                </li>
+                                <li class="accordion">
+                                    <button class="accordion__control">
+                                        <h3 class="accordion__title"><span>Lesson 4.</span> In id dolor quis nunc, urna hendrerit pharetra.</h3>
+                                    </button>
+                                    <div class="accordion__content">
+                                        <p>Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo nunc orci vitae accumsan id.</p>
+                                    </div>
+                                </li>
+                                <li class="accordion">
+                                    <button class="accordion__control">
+                                        <h3 class="accordion__title"><span>Lesson 5.</span> Est, ut tempus id rutrum facilisi.</h3>
+                                    </button>
+                                    <div class="accordion__content">
+                                        <p>Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo nunc orci vitae accumsan id.</p>
+                                    </div>
+                                </li>
+                                <li class="accordion">
+                                    <button class="accordion__control">
+                                        <h3 class="accordion__title"><span>Lesson 6.</span> Amet nec in pellentesque.</h3>
+                                    </button>
+                                    <div class="accordion__content">
+                                        <p>Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo nunc orci vitae accumsan id.</p>
+                                    </div>
+                                </li>
+                                <li class="accordion">
+                                    <button class="accordion__control">
+                                        <h3 class="accordion__title"><span>Lesson 7.</span> Massa vel arcu mauris, id vel rhoncus mattis quis.</h3>
+                                    </button>
+                                    <div class="accordion__content">
+                                        <p>Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo nunc orci vitae accumsan id.</p>
+                                    </div>
+                                </li>
+                                <li class="accordion">
+                                    <button class="accordion__control">
+                                        <h3 class="accordion__title"><span>Lesson 8.</span> Neque, cursus sapien nullam id.</h3>
+                                    </button>
+                                    <div class="accordion__content">
+                                        <p>Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo nunc orci vitae accumsan id.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="program__right">
+                            <img loading="lazy" src="img/program/program-bg.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="blog" id="blog">
+                <div class="container">
+                    <div class="blog__wrapper">
+                        <div class="blog__heading heading">
+                            <h3 class="heading__subtitle">Our blog</h3>
+                            <h2 class="heading__title">Latest posts</h2>
+                        </div>
+                        <a href="#" class="btn">Go to blog</a>
+                    </div>
+
+                    <ul class="blog__list">
+                        <li class="blog__item">
+                            <div class="blog-card">
+                                <div class="blog-card__img">
+                                    <picture>
+                                        <source srcset="img/blog/1.webp" type="image/webp">
+                                        <img loading="lazy" src="img/blog/1.jpg" alt="">
+                                    </picture>
+                                    <span class="blog-card__label blog-card__label--micro">Podcast</span>
+                                </div>
+                                <div class="blog-card__content">
+                                    <ul class="blog-card__content-top">
+                                        <li class="blog-card__section">Marketing</li>
+                                        <li class="blog-card__calendar"><time datetime="2020-09-04">September 4, 2020</time></li>
+                                        <li class="blog-card__clock"><time pubdate="15:00">36 min</time></li>
+                                    </ul>
+                                    <div class="blog-card__text">
+                                        <a href="#">What is traffic arbitrage and does it really make money?</a>
+                                        <p>Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida…</p>
+                                    </div>
+                                </div>
+                                <a href="#" class="blog-card__link">Listen</a>
+                            </div>
+                        </li>
+                        <li class="blog__item">
+                            <div class="blog-card">
+                                <div class="blog-card__img">
+                                    <picture>
+                                        <source srcset="img/blog/2.webp" type="image/webp">
+                                        <img loading="lazy" src="img/blog/2.jpg" alt="">
+                                    </picture>
+                                    <span class="blog-card__label blog-card__label--video">Podcast</span>
+                                </div>
+                                <div class="blog-card__content">
+                                    <ul class="blog-card__content-top">
+                                        <li class="blog-card__section">Marketing</li>
+                                        <li class="blog-card__calendar"><time datetime="2020-09-04">September 4, 2020</time></li>
+                                        <li class="blog-card__clock"><time pubdate="15:00">45 min</time></li>
+                                    </ul>
+                                    <div class="blog-card__text">
+                                        <a href="#">What to do and who to talk to if you want to get feedback on the product</a>
+                                        <p>Neque a, senectus consectetur odio in aliquet nec eu. Ultricies ac nibh urna urna sagittis faucibus…</p>
+                                    </div>
+                                </div>
+                                <a href="#" class="blog-card__link">Watch</a>
+                            </div>
+                        </li>
+                        <li class="blog__item">
+                            <div class="blog-card">
+                                <div class="blog-card__img">
+                                    <picture>
+                                        <source srcset="img/blog/3.webp" type="image/webp">
+                                        <img loading="lazy" src="img/blog/3.jpg" alt="">
+                                    </picture>
+                                    <span class="blog-card__label blog-card__label--article">Podcast</span>
+                                </div>
+                                <div class="blog-card__content">
+                                    <ul class="blog-card__content-top">
+                                        <li class="blog-card__section">Marketing</li>
+                                        <li class="blog-card__calendar"><time datetime="2020-09-04">August 8, 2020</time></li>
+                                    </ul>
+                                    <div class="blog-card__text">
+                                        <a href="#">Should you choose a creative profession if you are attracted to creativity?</a>
+                                        <p>Curabitur nisl tincidunt eros venenatis vestibulum ac placerat. Tortor, viverra sed vulputate ultrices…</p>
+                                    </div>
+                                </div>
+                                <a href="#" class="blog-card__link">Read</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="contact" id="contacts">
+                <div class="container">
+                    <div class="contact__wrapper">
+                        <div class="contact__info">
+                            <div class="contact__heading heading">
+                                <h3 class="heading__subtitle">Contact info</h3>
+                                <h2 class="heading__title">Get in touch</h2>
+                            </div>
+                            <ul class="contact__list">
+                                <li class="contact__item contact__item--chat">
+                                    <span>Talk to us:</span>
+                                    <a href="mailto:hello@createx.com" class="contact__link">hello@createx.com</a>
+                                </li>
+                                <li class="contact__item contact__item--phone">
+                                    <span>Call us:</span>
+                                    <a href="tel:4055550128" class="contact__link">(405) 555-0128</a>
+                                </li>
+                                <li class="contact__item contact__item--markmap">
+                                    <span>Address:</span>
+                                    <a href="https://www.google.com/maps/place/%D0%9D%D1%8C%D1%8E-%D0%94%D0%B6%D0%B5%D1%80%D1%81%D0%B8,+%D0%A1%D0%A8%D0%90/@39.9492572,-75.1809785,13z/data=!4m5!3m4!1s0x89c0fb959e00409f:0x2cd27b07f83f6d8d!8m2!3d40.0583238!4d-74.4056612" class="contact__link" target="_blank">2464 Royal Ln. Mesa, New Jersey 45463, USA</a>
+                                </li>
+                            </ul>
+                            <h5 class="contact__social-title">Follow us:</h5>
+                            <ul class="social">
+                                <li class="social__item">
+                                    <a href="#" class="social__link" target="_blank">
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link" target="_blank">
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link" target="_blank">
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#youtube"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link" target="_blank">
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#telegram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link" target="_blank">
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link" target="_blank">
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#linked"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="contact__map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d21177.65235691034!2d-75.16774751243922!3d39.953528689080976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s2464%20Royal%20Ln.%20Mesa%2C%20New%20Jersey%2045463%2C%20USA!5e0!3m2!1sru!2snl!4v1662917548623!5m2!1sru!2snl" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="questions">
+                <div class="container">
+                    <div class="questions__wrapper">
+                        <div class="questions__img">
+                            <img loading="lazy" src="img/questions/questions-bg.svg" alt="">
+                        </div>
+                        <div class="questions__form">
+                            <div class="questions__heading heading">
+                                <h3 class="heading__subtitle">Any questions?</h3>
+                                <h2 class="heading__title">Drop us a line</h2>
+                            </div>
+                            <form action="#" class="form">
+                                <label class="form__label">
+                                    First Name*
+                                    <input type="text" name="first name" class="form__input" placeholder="Your first name" required>
+                                </label>
+                                <label class="form__label">
+                                    Last Name*
+                                    <input type="text" name="last name" class="form__input" placeholder="Your last name" required>
+                                </label>
+                                <label class="form__label">
+                                    Email*
+                                    <input type="email" name="email" class="form__input" placeholder="Your working email" required>
+                                </label>
+                                <label class="form__label">
+                                    Phone
+                                    <input type="tel" name="number" class="form__input" placeholder="Your phone number">
+                                </label>
+                                <label class="form__label-textarea">
+                                    Message*
+                                    <textarea type="text" class="form__textarea" placeholder="Your phone number" required></textarea>
+                                </label>
+                                <label class="custom-checkbox">
+                                    <input type="checkbox" class="custom-checkbox__field" required>
+                                    <span class="custom-checkbox__content">I agree to receive communications from Createx Online School</span>
+                                </label>
+                                <button class="form__btn btn ">Send message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="footer-top__wrapper">
+                        <div class="footer-top__col footer-top__col--big">
+                            <a href="#" class="footer-top__logo footer-logo">
+                                <img loading="lazy" src="img/footer-logo.svg" alt="Логотип">
+                            </a>
+                            <div class="footer-top__text">
+                                Createx Online School is a leader in online studying. We have lots of courses and programs from
+                                the main market experts. We provide relevant approaches to online learning, internships and
+                                employment in the largest companies in the country.
+                            </div>
+                            <ul class="social">
+                                <li class="social__item">
+                                    <a href="#" class="social__link" target="_blank">
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link" target="_blank">
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link" target="_blank">
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#youtube"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link" target="_blank">
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#telegram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link" target="_blank">
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link" target="_blank">
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#linked"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-top__col">
+                            <h4 class="footer-top__title">SITE MAP</h4>
+                            <ul class="footer-top__list">
+                                <li class="footer-top__item" data-menu-item>
+                                    <a href="#about" class="footer-top__link" data-scroll>About Us</a>
+                                </li>
+                                <li class="footer-top__item" data-menu-item>
+                                    <a href="#courses" class="footer-top__link" data-scroll>Courses</a>
+                                </li>
+                                <li class="footer-top__item" data-menu-item>
+                                    <a href="#events" class="footer-top__link" data-scroll>Events</a>
+                                </li>
+                                <li class="footer-top__item" data-menu-item>
+                                    <a href="#blog" class="footer-top__link" data-scroll>Blog</a>
+                                </li>
+                                <li class="footer-top__item" data-menu-item>
+                                    <a href="#contacts" class="footer-top__link" data-scroll>Contacts</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-top__col">
+                            <h4 class="footer-top__title">COURSES</h4>
+                            <ul class="footer-top__list">
+                                <li class="footer-top__item">
+                                    <a href="#" class="footer-top__link">Marketing</a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#" class="footer-top__link">Management</a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#" class="footer-top__link">HR & Recruting</a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#" class="footer-top__link">Design</a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#" class="footer-top__link">Development</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-top__col">
+                            <h4 class="footer-top__title">CONTACT US</h4>
+                            <ul class="footer-top__list">
+                                <li class="footer-top__item">
+                                    <a href="tel:4055550128" class="footer-top__link footer-top__link--phone">(405) 555-0128</a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="mailto:hello@createx.com" class="footer-top__link footer-top__link--email">hello@createx.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-top__col footer-top__col--big">
+                            <h4 class="footer-top__title">SIGN UP TO OUR NEWSLETTER</h4>
+                            <form action="#" class="footer-top__form">
+                                <label class="footer-top__label">
+                                    <input type="email" name="email" class="footer-top__input" placeholder="Email address">
+                                    *Subscribe to our newsletter to receive communications and early updates from Createx SEO
+                                    Agency.
+                                </label>
+                                <button class="footer-top__btn">
+                                    <svg>
+                                        <use xlink:href="img/sprite.svg#arr-right"></use>
+                                    </svg>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="footer-bottom__wrapper">
+                        <div class="footer-bottom__left">
+                            © All rights reserved. Made with <img loading="lazy" src="img/icons/heart.svg"> by Createx Studio
+                        </div>
+                        <a href="#hero" class="footer-bottom__right" data-scroll>
+                            GO TO TOP
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
